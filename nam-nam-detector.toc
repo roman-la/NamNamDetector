@@ -1,0 +1,9 @@
+## Interface: 90000
+## Title: NamNamDetector
+## Author: roman-la
+## Version: {version}
+## SavedVariables: NAMNAMVARS
+
+embeds.xml
+main.lua
+options.lua
