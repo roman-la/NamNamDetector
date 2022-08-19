@@ -1,7 +1,7 @@
 ## Interface: 90000
 ## Title: NamNamDetector
 ## Author: roman-la
-## Version: {version}
+## Version: 0.0.1
 ## SavedVariables: NAMNAMVARS
 
 embeds.xml
