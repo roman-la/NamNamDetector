@@ -4,6 +4,8 @@
 ## Version: 0.0.1
 ## SavedVariables: NAMNAMVARS
 
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
 embeds.xml
 main.lua
 options.lua

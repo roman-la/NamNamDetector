@@ -36,6 +36,17 @@ local frame = CreateFrame("FRAME")
 frame:RegisterEvent("CHAT_MSG_SAY")
 frame:SetScript("OnEvent", function(self, event, ...)
     local text, sender = ...
+    
+    -- Check if player is in an instance
+    -- See https://twitter.com/deadlybossmods/status/1176685822223011842
+    if not IsInInstance() then
+        -- Output info to chat if not already done
+        if not announced then
+            print("NamNamDetector: Detected", sender, "spamming the chat but could not react because player is not in an instance.")
+            announced = true
+        end
+        return
+    end
 
     for i, message in pairs(NAMNAMVARS.start_messages) do
         if text == message then

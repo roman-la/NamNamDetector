@@ -1,3 +1,5 @@
+AceGUI = LibStub("AceGUI-3.0")
+
 local function generate_elements()
     local group = AceGUI:Create("SimpleGroup")
     group:SetFullWidth(true)
