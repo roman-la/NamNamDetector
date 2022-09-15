@@ -1,7 +1,7 @@
 ## Interface: 90207
 ## Title: NamNamDetector
 ## Author: roman-la
-## Version: 0.0.1
+## Version: 0.0.3
 ## SavedVariables: NAMNAMVARS
 
 libs\LibStub\LibStub.lua
